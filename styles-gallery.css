@@ -1,0 +1,91 @@
+*{
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px 10px 100px;
+    align-items: center;
+    background-image: linear-gradient(rgb(0,0,0), rgb(0,0,0,0.8), rgb(0,0,0,0.6), rgb(0,0,0,0.4), rgb(0,0,0,0));
+
+}
+.logo{
+    width: 100px;
+}
+li, a, button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 50px;
+    border-right-style: solid;
+
+}
+li:last-child{
+    border-right-style: none;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: rgb(0,0,0);
+  color: white;
+  border: 5px solid white;
+}
+
+.logo-link:hover img{
+    transform: scale(1.2);
+}
+
+ul li a:hover {
+    font-size: 20px;
+}
+
+/* Gallery */
+h1{
+    font-size: 32px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.radek {
+    display: flex;
+    padding: 0 4px;
+  }
+  
+
+  .sloupec {
+    padding: 0 4px;
+    width: 50%;
+  }
+  
+  .sloupec img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    
+  }
